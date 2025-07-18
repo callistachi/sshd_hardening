@@ -1,0 +1,13 @@
+namespace: callistachi
+name: sshd_config_manager
+version: 1.0.0
+readme: README.md
+authors:
+- Callista Chi <hello@callistachi.com>
+description: >
+  A utility module for managing and updating sshd_config entries on remote hosts.
+  Ensures specific SSH server settings are present, updated, or removed without
+  manual line editing. Ideal for use in declarative playbooks and system configuration tasks.
+license_file: LICENSE
+repository: https://github.com/callistachi/sshd_config_manager
+tags: [ssh, ssh_config, sshd_config, configuration, system, system_configuration, sshd_configuration, automation, utility, ssh_configuration, linux, sshd, rhel, debian]
