@@ -1,4 +1,7 @@
 # callistachi.sshd_config_manager - SSHD Configuration Ansible Collection
+[![Galaxy](https://img.shields.io/badge/Galaxy-callistachi.sshd__config__manager-blue?logo=ansible)](https://galaxy.ansible.com/ui/repo/published/callistachi/sshd_config_manager/)
+
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -66,7 +69,9 @@ You can install the collection directly from Ansible Galaxy:
 ansible-galaxy collection install callistachi.sshd_config_manager
 ```
 
-Or add it to your requirements.yml:
+[View on Ansible Galaxy](https://galaxy.ansible.com/ui/repo/published/callistachi/sshd_config_manager/)
+
+Or add it to your `requirements.yml`:
 
 ```yaml
 collections:
