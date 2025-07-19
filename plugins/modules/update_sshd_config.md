@@ -1,4 +1,4 @@
-# sshd_config_manager – Ansible SSHD Config Module Plugin
+# update_sshd_config
 
 This module provides a convenient way to manage `sshd_config` entries on remote systems using Ansible.  
 It allows you to **add**, **update**, or **remove** specific SSH server configuration options programmatically  
