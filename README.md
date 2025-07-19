@@ -49,7 +49,7 @@ If your distribution uses a different init system or service name, set the `serv
 If not using Galaxy, you can include it manually:
 
 ```bash
-ansible-galaxy collection install callistachi.sshd_config_manager
+ansible-galaxy collection install /path/to/callistachi.sshd_config_manager.tar.gz
 ```
 
 ## Usage Example
@@ -90,6 +90,12 @@ ansible-galaxy collection install callistachi.sshd_config_manager
     password_authentication: false
     check_mode: true
 ```
+
+---
+## Module Documentation
+
+For full details on all available parameters, see the [update_sshd_config module README](./plugins/modules/update_sshd_config.md).
+
 
 ## License Information
 This collection is licensed under the [MIT License](README.md).
