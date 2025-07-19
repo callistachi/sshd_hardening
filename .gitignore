@@ -1,0 +1,2 @@
+# Ignore Ansible collection package files
+*.tar.gz
